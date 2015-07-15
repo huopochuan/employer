@@ -1,0 +1,92 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+    tools:context=".MainActivity" >
+     <RelativeLayout
+       android:id="@+id/rl_view"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:background="@color/bg_title" 
+       >
+     <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:textColor="#ffffff"
+      android:text="员工列表"
+      
+     />
+     <TextView
+      android:id="@+id/tv_add"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:textColor="#ffffff"
+      android:layout_alignParentRight="true"
+      android:text="添加"
+      android:layout_marginRight="10dp"
+      
+     />
+   </RelativeLayout>
+   
+   <RelativeLayout 
+    android:orientation="vertical"
+  
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+    <RelativeLayout android:id="@+id/top"
+    	android:layout_width="fill_parent"
+    	android:layout_alignParentTop="true"
+    	android:paddingLeft="10dp"
+    	android:paddingRight="10dp"
+    	android:background="@drawable/top_background"
+    	android:layout_height="wrap_content">
+    	
+      
+        
+        <RelativeLayout 
+            android:id="@+id/rlSearchFrameDelete"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        	android:layout_centerVertical="true"
+			android:gravity="center_vertical"
+           >
+            
+		    	<EditText android:id="@+id/etSearch1"
+		        	android:layout_width="fill_parent"
+		        	android:layout_height="wrap_content"
+					android:singleLine="true"
+		        	android:background="@drawable/search_frame"
+		        	android:layout_marginRight="10dp"
+		        	android:paddingLeft="32dp"
+		        	android:textSize="12sp"
+		        	android:hint="请输入文字..."/>
+		    	
+		    	<ImageView android:id="@+id/ivDeleteText"
+		    	    android:layout_width="wrap_content"
+		    	    android:layout_height="wrap_content"
+		    	    android:layout_alignParentRight="true"
+		    	    android:src="@drawable/delete"
+		    	    android:layout_centerInParent="true"
+		    	    android:paddingRight="20dp"
+		    	    android:visibility="gone"/>
+            
+        </RelativeLayout>
+        
+    	
+    </RelativeLayout>
+    
+   </RelativeLayout>
+   <ListView
+       android:id="@+id/listview"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       
+       
+       >
+       
+   </ListView>
+    </LinearLayout>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+   
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           
+        
+           
+            >
+
+            <TextView
+               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:duplicateParentState="true"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:text="级别" />
+ 
+           <Spinner
+               android:id="@+id/spinner_por"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" 
+               android:entries="@array/por"   
+               android:spinnerMode="dialog" 
+               android:layout_marginLeft="80dp"
+               />
+        </RelativeLayout>
+ 
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+          
+            android:clickable="true"
+            android:gravity="center_vertical" >
+
+            <TextView
+               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:duplicateParentState="true"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:text="姓名" />
+
+            <EditText
+                android:id="@+id/edit_xm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="80dp"
+              
+                android:minHeight="40dp"
+                android:paddingLeft="4dip"
+                android:textColor="#000000"
+                android:textSize="16.0sp" >
+            </EditText>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bqsz"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+       
+            android:clickable="true"
+            android:gravity="center_vertical" >
+
+            <TextView
+              
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:duplicateParentState="true"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:text="年龄" />
+
+            <EditText
+                android:id="@+id/edit_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="80dp"
+             
+                android:minHeight="40dp"
+                android:paddingLeft="4dip"
+                android:textColor="#000000"
+                android:textSize="16.0sp" >
+            </EditText>
+        </RelativeLayout>
+
+       
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           
+            android:clickable="true"
+            android:gravity="center_vertical" >
+
+            <TextView
+               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:duplicateParentState="true"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:text="性别" />
+
+             <Spinner
+              android:id="@+id/spinner_sex"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:entries="@array/sex"
+               android:spinnerMode="dialog"
+                  android:layout_marginLeft="80dp"        />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           
+            android:clickable="true"
+            android:gravity="center_vertical" >
+
+            <TextView
+               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:duplicateParentState="true"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:text="工资" />
+
+            <EditText
+                android:id="@+id/edit_gz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="80dp"
+             
+                android:minHeight="40dp"
+                android:hint="0.0"
+                android:paddingLeft="4dip"
+                android:textColor="#000000"
+                android:textSize="16.0sp" >
+            </EditText>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           
+            android:clickable="true"
+            android:gravity="center_vertical" >
+
+            <TextView
+               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:duplicateParentState="true"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:text="当月业务额" />
+
+            <EditText
+                android:id="@+id/edit_yw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="80dp"
+             
+                android:minHeight="40dp"
+                android:hint="0.0"
+                android:paddingLeft="4dip"
+                android:textColor="#000000"
+                android:textSize="16.0sp" >
+            </EditText>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           
+            android:clickable="true"
+            android:gravity="center_vertical" >
+
+            <TextView
+               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:duplicateParentState="true"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:text="工作时间" />
+
+            <EditText
+                android:id="@+id/edit_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="80dp"
+             
+                android:minHeight="40dp"
+                android:hint="0"
+                android:paddingLeft="4dip"
+                android:textColor="#000000"
+                android:textSize="16.0sp" >
+            </EditText>
+        </RelativeLayout>
+       
+    </LinearLayout>
+     "
+    <Button
+         android:id="@+id/btn_qr"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="40dp"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="确认"
+         ></Button>
+
+</RelativeLayout>

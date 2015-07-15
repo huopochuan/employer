@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">employ</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="por">
+        <item>办事员(1级)</item>
+        <item>领域专家(2级) </item>
+        <item>项目经理(3级)</item>
+        <item>高级管理人员(4级)</item>
+    </string-array>
+    <string-array name="sex">
+        <item>男</item>
+        <item>女</item>
+        
+    </string-array>
+</resources>
